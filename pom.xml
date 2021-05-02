@@ -14,7 +14,7 @@
 	<name>principal</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -33,6 +33,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    		<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.lab2</groupId>
+    		<artifactId>cientificCalc</artifactId>
+    		<version>v1</version>
+	</dependency>
 	</dependencies>
 
 	<build>
