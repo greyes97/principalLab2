@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.lab2</groupId>
 	<artifactId>principal</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>v1</version>
 	<name>principal</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -34,10 +34,26 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-    		<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.lab2</groupId>
-    		<artifactId>cientificCalc</artifactId>
-    		<version>v1</version>
-	</dependency>
+    			<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.lab2</groupId>
+    			<artifactId>cientificCalc</artifactId>
+    			<version>v1</version>
+		</dependency>
+		<dependency>
+    			<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.lab2</groupId>
+    			<artifactId>developCalc</artifactId>
+    			<version>0.0.1-20210502.145231-1</version>
+		</dependency>
+		<dependency>
+    			<groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.lab2</groupId>
+    			<artifactId>grafiCalc</artifactId>
+    			<version>v1</version>
+		</dependency>
+		<dependency>
+			    <groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.lab2</groupId>
+			    <artifactId>standarCalc</artifactId>
+			    <version>0.0.1-20210502.062950-1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
